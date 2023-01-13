@@ -17,7 +17,7 @@
 }
 .img-wrap.img-1{
 padding-left: 50%;
-width: 140%;
+width: 130%;
 }
 @media only screen and (max-width: 473px) {
    
@@ -84,23 +84,46 @@ padding-bottom: 0rem !important;
     }
     #myVideo {
     position: fixed;
-    filter: blur(5px);
-    
-    }
-    body{
+    filter: blur(7px);
+    filter: brightness(0.30);
+}
 
-        background-color: none;
+body {
+  background-image: url(/wallpaper.jpg);
+  backdrop-filter: blur(2px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
 
-    }
-    
+}
+li{
+  font-weight: 600;
+}
+p{
+  font-weight: 500;
+}
+
 
 </style>
     <body class="">	
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
         
-        <video autoplay muted loop id="myVideo">
-            <source src="https://vod-progressive.akamaized.net/exp=1673448962~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4859%2F12%2F324296639%2F1265719743.mp4~hmac=d7a624a38a17f2ad679b6ea98d977fa31f1f8bbb6f48130578cd85f07294b7dc/vimeo-prod-skyfire-std-us/01/4859/12/324296639/1265719743.mp4" type="video/mp4">
-            
-          </video>
 
         <div class="navigation-wrap bg-light start-header start-style">
             <div class="container">
@@ -141,6 +164,7 @@ padding-bottom: 0rem !important;
                     </div>
                     
                 </div>
+            
             </div>
             
         
@@ -161,51 +185,30 @@ padding-bottom: 0rem !important;
         <br>
         <br>
         
-
-        
+   
             
         <div class="container-fluid">
+          
             <div class="container p-5">
               <div class="row">
                 <div class="col-lg-4 col-md-12 mb-4">
                   <div class="card card1 h-100">
                     <div class="card-body">
                      
-                      <h5 class="card-title">Basic</h5>
-                      <small class='text-muted'>Individual</small>
+                      <h4 class="card-title">Basic</h4>
+                      <small class='text-muted'>One Key</small>
                       <br><br>
-                      <span class="h2">$8</span>/month
+                      <span class="h2">$2.5</span>/month
                       <br><br>
                       <div class="d-grid my-3">
-                        <button class="btn btn-outline-dark btn-block">Select</button>
+                        <button class="btn btn-outline-dark btn-block"  data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us</button>
+                       
                       </div>
                       <ul>
-                        <li>Cras justo odio</li>
-                        <li>Dapibus ac facilisis in</li>
-                        <li>Vestibulum at eros</li>
                         
-                      </ul>
-                    </div>
-        
-                    
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-12 mb-4">
-                  <div class="card card2 h-100">
-                    <div class="card-body">
-                     
-                      <h5 class="card-title">Standard</h5>
-                      <small class='text-muted'>Small Business</small>
-                      <br><br>
-                      <span class="h2">$20</span>/month
-                      <br><br>
-                      <div class="d-grid my-3">
-                        <button class="btn btn-outline-dark btn-block">Select</button>
-                      </div>
-                      <ul>
-                        <li>Cras justo odio</li>
-                        <li>Dapibus ac facilisis in</li>
-                        <li>Vestibulum at eros</li>
+                        <li>1 key</li>
+                        <li>live support 24/7</li>
+                        <li>Guaranteed</li>
                         
                       </ul>
                     </div>
@@ -217,18 +220,45 @@ padding-bottom: 0rem !important;
                   <div class="card card3 h-100">
                     <div class="card-body">
                      
-                      <h5 class="card-title">Premium</h5>
-                      <small class='text-muted'>Large Company</small>
+                      <h4 class="card-title">Duo</h4>
+                      <small class='text-muted'>Two Keys</small>
                       <br><br>
-                      <span class="h2">$40</span>/month
+                      <span class="h2">$9.99</span>/month
                       <br><br>
                       <div class="d-grid my-3">
-                        <button class="btn btn-outline-dark btn-block">Select</button>
+                        <button class="btn btn-outline-dark btn-block"  data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us</button>
+                     
                       </div>
                       <ul>
-                        <li>Cras justo odio</li>
-                        <li>Dapibus ac facilisis in</li>
-                        <li>Vestibulum at eros</li>
+                        <li>2 keys</li>
+                        
+                        <li>Live support 24/7</li>
+                        <li>Guaranteed</li>
+                        
+                        
+                      </ul>
+                    </div>
+        
+                    
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4">
+                  <div class="card card2 h-100">
+                    <div class="card-body">
+                     
+                      <h4 class="card-title">Seller</h4>
+                      <small class='text-muted'>Select how many keys you wish</small>
+                      <br><br>
+                      <span class="h2">$..</span>/month
+                      <br><br>
+                      <div class="d-grid my-3">
+                      <button class="btn btn-outline-dark btn-block"  data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us</button>
+                        
+                      </div>
+                      <ul>
+                        <li>Custom keys quantity</li>
+                        <li>Live Support 24/7</li>
+                        <li>Guaranteed</li>
                         
                       </ul>
                     </div>
@@ -253,8 +283,7 @@ padding-bottom: 0rem !important;
         
 
 
-
-
+    
 
 
 
@@ -267,7 +296,7 @@ padding-bottom: 0rem !important;
                   <p class="footer__logo"><img src="/ico/logo.png" alt="" width="30%"></p>
                       
                   <h2></h2>
-                  <br>
+                  
                   
                   <address>
                     <p><a href="https://discord.gg/8DpWD5tUnc"><i class="fab fa-2x fa-fw fa-discord font-weight-light"></i></a>
